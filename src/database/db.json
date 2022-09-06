@@ -1,0 +1,302 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "IKAN PATIN BUMBU BALI",
+      "category": "food",
+      "description": "Makan Ikan Patin Setiap hari memiliki Berjuta Manfaat, Ikan Patin merupakan jenis ikan yang masih satu keluarga dengan Ikan Lele,  juga merupakan salah satu jenis ikan yang digemari oleh masyarakat Indonesia.Ikan Patin memiliki rasa yang gurih dan lembut. Hampir seluruh bagian Ikan Patin dapat dikonsumsi. Daging dan kepala Ikan Patin dapat diolah menjadi masakan yang lezat, sedangkan bagian tulangnya dapat menjadi kaldu ikan yang juga sama lezatnya. Olahan Ikan Patin mengandung bumbu yang kompleks, sehingga menghadirkan cita rasa menggugah selera.",
+      "price": 8000,
+      "stock": 13,
+      "images": [
+        "https://img-global.cpcdn.com/recipes/ced4d5b3ae77d54b/1200x630cq70/photo.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AYAM UNGKEP LAOS",
+      "category": "food",
+      "description": "Ayam yang sudah diungkep bumbu rasanya makin enak saat digoreng. Ayam goreng ungkep tradisional ini bikin makan makin enak dan nagih.",
+      "price": 10000,
+      "stock": 13,
+      "images": [
+        "https://resep.us/wp-content/uploads/2020/06/langkah-memasak-ayam-ungkep-bumbu-laos-nikmat.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "AYAM GORENG CRISPY",
+      "category": "food",
+      "description": "Ayam goreng crispy kami menggunakan ayam segar, dengan hasil yang renyah dan gurih",
+      "price": 8000,
+      "stock": 13,
+      "images": [
+        "https://4.bp.blogspot.com/-84pxb3XiQcQ/Vb2TMupA4II/AAAAAAAAAV8/Jmc2azALXPM/s1600/ayam%2Bcrispy.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "AYAM BUMBU RICA RICA",
+      "category": "food",
+      "description": "Ayam Rica-Rica adalah hidangan ayam khas Manado. Terkenal dengan warna merahnya yang mencolok, arti dari nama masakan ini adalah 'ayam sambal'. Rasa sambal yang nikmat membuatnya cocok untuk penggemar pedas.",
+      "price": 10000,
+      "stock": 13,
+      "images": [
+        "https://4.bp.blogspot.com/-rWpuV_-8f3Q/Uqupxr3F1pI/AAAAAAAABFc/dQ9Bp614S64/s1600/ayam+rica-rica.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "PINDANG SAMBEL",
+      "category": "food",
+      "description": "Ikan pindang mempunyai cita-rasa yang lebih lezat dan tidak begitu asin. Di tambah dengan olaha sambel kami menu ini menjadi salah satu menu terlaris kami",
+      "price": 10000,
+      "stock": 13,
+      "images": [
+        "https://img-global.cpcdn.com/recipes/b31523c348349803/680x482cq70/2-pindang-sambel-matah-goreng-foto-resep-utama.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "GURAME ASAM MANIS",
+      "category": "food",
+      "description": "Ikan gurame merupakan yang paling unggul dibandingkan dengan jenis ikan air tawar lainnya . Keunggulan ini dikarenakan rasanya yang enak dan gurih sehingga banyak masyarakat yang menggemari ikan ini",
+      "price": 35000,
+      "stock": 13,
+      "images": [
+        "https://th.bing.com/th/id/OIP.aEEkaEvdA0Kbk5O4lq4fowHaFj?pid=ImgDet&rs=1"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "NASI UDUK AYAM KLAMUT",
+      "category": "food",
+      "description": "Nasi uduk mengandung kalsium yang sangat bermanfaat untuk menjaga kesehatan tulang. Dengan rutin mengkonsumsi makanan ini akan sangat baik untuk menjaga kekuatan tulang agar tidak mudah patah.",
+      "price": 15000,
+      "stock": 13,
+      "images": [
+        "https://d99i6ad9lbm5v.cloudfront.net/uploads/image/file/1501/makanan-khas-indonesia-7.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ANEKA SAYUR",
+      "category": "food",
+      "description": "Mengkonsumsi sayuran setiap hari sangat dianjurkan untuk menunjang pola hidup sehat, karena sayur mengandung banyak nutrisi dan serat alami yang dibutuhkan tubuh untuk menunjang aktivitas sehari-hari agar tetap vit, dan terhindar berbagai macam penyakit berbahaya.",
+      "price": 5000,
+      "stock": 13,
+      "images": [
+        "https://th.bing.com/th/id/OIP.LJlbeKniX93_h6KoKsBD5gHaEK?pid=ImgDet&rs=1"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "BIHUN KUAH",
+      "category": "food",
+      "description": "Bihun masuk ke dalam daftar makanan yang sarat karbohidrat. Disebut bahwa 90 persen kandungan bihun adalah karbohidrat, sisanya vitamin A, dan B. Semua vitamin yang ada di beras",
+      "price": 12000,
+      "stock": 13,
+      "images": [
+        "https://th.bing.com/th/id/OIP.qslgZHB_x4IeeJiG8wLOdQHaFO?pid=ImgDet&rs=1"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "BIHUN GORENG",
+      "category": "food",
+      "description": "Bihun masuk ke dalam daftar makanan yang sarat karbohidrat. Disebut bahwa 90 persen kandungan bihun adalah karbohidrat, sisanya vitamin A, dan B. Semua vitamin yang ada di beras",
+      "price": 12000,
+      "stock": 13,
+      "images": [
+        "https://th.bing.com/th/id/OIP.Jh-yaZRzEU2GS8Rp6gmlXQHaHa?pid=ImgDet&rs=1"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "TAMI CAPJAY",
+      "category": "food",
+      "description": "Makanan ini berupa beberapa jenis sayur yang ditumis bersama dengan aneka isian seperti telur, sosis, pentol, daging ayam",
+      "price": 20000,
+      "stock": 13,
+      "images": [
+        "https://img-global.cpcdn.com/recipes/a19498b2fb879c4a/1200x630cq70/photo.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "MIE CAPJAY",
+      "category": "food",
+      "description": "Makanan ini berupa beberapa jenis sayur yang ditumis bersama dengan aneka isian seperti telur, sosis, pentol, daging ayam. Kemudian kami tambahkan bahan mie di dalamnya.",
+      "price": 20000,
+      "stock": 13,
+      "images": [
+        "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/105/MTA-7491768/foodiesia_foodiesia_full01.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "CAPJAY GORENG",
+      "category": "food",
+      "description": "Makanan ini berupa beberapa jenis sayur yang ditumis bersama dengan aneka isian seperti telur, sosis, pentol, daging ayam, yang kami olah dengan cara khusus seperti di goreng.",
+      "price": 17000,
+      "stock": 13,
+      "images": [
+        "https://th.bing.com/th/id/OIP.8LikFEfoXNszOI8dOL9sbAHaFI?pid=ImgDet&rs=1"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "CAPJAY KUWAH",
+      "category": "food",
+      "description": "Makanan ini berupa beberapa jenis sayur yang ditumis bersama dengan aneka isian seperti telur, sosis, pentol, daging ayam.",
+      "price": 17000,
+      "stock": 13,
+      "images": [
+        "https://i1.wp.com/www.adakuliner.com/wp-content/uploads/2017/10/Cap-Cay-Goreng-17.500.jpg?fit=1361%2C907&ssl=1"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "NASI CAPJAY",
+      "category": "food",
+      "description": "Makanan ini berupa beberapa jenis sayur yang ditumis bersama dengan aneka isian seperti telur, sosis, pentol, daging ayam. Kemudian kami hidangkan bebarengan dengan nasi.",
+      "price": 15000,
+      "stock": 13,
+      "images": [
+        "https://halalbites.co.nz/wp-content/uploads/2020/07/umm1.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "MIE GORENG",
+      "category": "food",
+      "description": "Mie goreng merupakan salah satu makanan populer di masyarakat indonesia. Bahkan makanan ini sering di konsomsi sebagian orang sebagai pengganti nasi. Meskipun dalam pembuatanya yang sederhana namun jangan anggap remeh rasanya yang sangat menggelora pada lidah.",
+      "price": 12000,
+      "stock": 13,
+      "images": [
+        "https://th.bing.com/th/id/R.74d7b29f3280c19be060c8df26486062?rik=hK1ul8LxlpCGlQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-Ah5dan6naxI%2fUrv2bonhJZI%2fAAAAAAAAQOs%2fxm2pRVZeUp8%2fs1600%2fPicture%2b980.jpg&ehk=wx3ho79%2bQ0xXna%2f1PGMuQG7k2AtA%2ftoV%2bySWocqK2ms%3d&risl=&pid=ImgRaw&r=0"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "NASI GORENG MAWUT",
+      "category": "food",
+      "description": "Mie goreng merupakan salah satu makanan populer di masyarakat indonesia. Bahkan makanan ini sering di konsomsi sebagian orang sebagai pengganti nasi. Meskipun dalam pembuatanya yang sederhana namun jangan anggap remeh rasanya yang sangat menggelora pada lidah.",
+      "price": 13000,
+      "stock": 13,
+      "images": [
+        "https://img-global.cpcdn.com/recipes/2397273167069507/1502x1064cq70/nasi-goreng-mawut-bawang-putih-pakai-indomie-goreng-foto-resep-utama.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "NASI GORENG ORIGINAL",
+      "category": "food",
+      "description": "Mie goreng merupakan salah satu makanan populer di masyarakat indonesia. Bahkan makanan ini sering di konsomsi sebagian orang sebagai pengganti nasi. Meskipun dalam pembuatanya yang sederhana namun jangan anggap remeh rasanya yang sangat menggelora pada lidah.",
+      "price": 12000,
+      "stock": 13,
+      "images": [
+        "https://th.bing.com/th/id/R.18041570bb6cb47d2ff119ca9d1be325?rik=u9ywFN4EPLOwmw&riu=http%3a%2f%2fwww.tarasmulticulturaltable.com%2fwp-content%2fuploads%2f2013%2f07%2fnasi-goreng-2-of-3.jpg&ehk=H8D5C4n%2bbuSiHoOyupKbNoigBAAtpqO2oUeWAsBho84%3d&risl=&pid=ImgRaw&r=0"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "NASI GORENG HONGKONG",
+      "category": "food",
+      "description": "Mie goreng merupakan salah satu makanan populer di masyarakat indonesia. Bahkan makanan ini sering di konsomsi sebagian orang sebagai pengganti nasi. Meskipun dalam pembuatanya yang sederhana namun jangan anggap remeh rasanya yang sangat menggelora pada lidah.",
+      "price": 12000,
+      "stock": 13,
+      "images": [
+        "https://img-global.cpcdn.com/recipes/d3579e954b204b4e/1502x1064cq70/nasi-goreng-hong-kong-foto-resep-utama.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "PUNTEN PECEL",
+      "category": "food",
+      "description": "Pecel makanan khas yang terdiri dari sayur mayur yang disiram dengam sambal bumbu kacang. Makanan khas pecel biasanya disajikan dengan makanan pokok berupa nasi, tetapi di Resto kami, menyajikan dengan punten.",
+      "price": 17000,
+      "stock": 13,
+      "images": [
+        "https://th.bing.com/th/id/R.29dec40f55184238264b3a1452cb0894?rik=BkGoxVMSsyZpDA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-R_nHuRncCR8%2fVLA0-wVptGI%2fAAAAAAAABQM%2foq0dA_0KPL8%2fs1600%2fPUNTEN.jpg&ehk=OmD03vxWZ6ozYVdxEL7mf3lSU61DzXbcFdgfAn4Dd2E%3d&risl=&pid=ImgRaw&r=0"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "ANEKA GORENGAN",
+      "category": "food",
+      "description": "Gorengan hasil olahan kami memiliki tekstur yang renyah, sehingga akan terasa garing dan nagih ketika digigit.",
+      "price": 2000,
+      "stock": 13,
+      "images": [
+        "https://uprint.id/blog/wp-content/uploads/2016/11/Gorengan-Khas-Indonesia.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "KARE AYAM",
+      "category": "food",
+      "description": "Kari ayam merupakan salah satu makanan kesukaan keluarga indonesia karena rasa bumbunya sudah di sesuaikan dengan lidah masyarakat. Siapa sih yang tidak suka dengan makanan ini baik itu mudah ataupun tua pasti gemar memakanya. Meskipun makanan ini tergolong sederhana namun jangan anggap remel soal rasanya.",
+      "price": 7000,
+      "stock": 13,
+      "images": [
+        "https://i.pinimg.com/originals/38/f3/cf/38f3cf7b9c2673f764d8fd25f5f5cc3a.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "SEMUR JENGKOL",
+      "category": "food",
+      "description": "Jengkol memiliki banyak manfaat yang berguna bagi kesehatan. Makanan ini juga sangat di percaya kaya akan karbohidrat, protein, vitamin A, B, C, fosfor, kalsium, alkaloid, minyak atsiri, steroid, glikosida, tanin, dan saponin.",
+      "price": 7000,
+      "stock": 13,
+      "images": [
+        "https://www.masakapahariini.com/wp-content/uploads/2019/06/semur-jengkol-geprek.jpg"
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "admin0",
+      "password": "admin123",
+      "email": "admin@gmail.com",
+      "no": "0857 123 456 789",
+      "role": "admin",
+      "cart": []
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "email": "user@gmail.com",
+      "password": "1234567!",
+      "role": "user",
+      "cart": []
+    },
+    {
+      "username": "user1",
+      "email": "user1@gmail.com",
+      "password": "1234567!",
+      "role": "user",
+      "cart": [
+        {
+          "id": 1,
+          "name": "IKAN PATIN BUMBU BALI",
+          "price": 8000,
+          "images": "https://img-global.cpcdn.com/recipes/ced4d5b3ae77d54b/1200x630cq70/photo.jpg",
+          "maxStock": 13,
+          "qtyBuy": 1
+        },
+        {
+          "id": 2,
+          "name": "AYAM UNGKEP LAOS",
+          "price": 10000,
+          "images": "https://resep.us/wp-content/uploads/2020/06/langkah-memasak-ayam-ungkep-bumbu-laos-nikmat.jpg",
+          "maxStock": 13,
+          "qtyBuy": 5
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "history": []
+}

@@ -1,0 +1,653 @@
+@media screen and (max-width: 575px) {
+    .home-bg {
+        height: fit-content;
+        width: 100%;
+        background-color: white;
+        background-size: cover;
+    }
+
+    .text-front {
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-weight: 800;
+        padding: 0;
+        margin: auto;
+    }
+
+    .title-front {
+        font-size: medium;
+    }
+
+    .cont-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        overflow: hidden;
+        padding: 0;
+        margin: auto;
+    }
+
+    .p-img-front {
+        font-size: small;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 786px) {
+    .home-bg {
+        height: fit-content;
+        width: 100%;
+        background-color: white;
+        background-size: cover;
+    }
+
+    .text-front {
+        height: 85vh;
+        width: 100%;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        font-size: xx-large;
+        font-weight: 800;
+    }
+
+    .img-front {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 85vh;
+        overflow: hidden;
+    }
+
+    .p-img-front {
+        font-size: large;
+        font-weight: 500;
+    }
+}
+
+
+/* BUTTON */
+.btn-style {
+    background-color: transparent;
+    color: orangered;
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: none;
+    align-items: center;
+    border-radius: .2rem;
+    border: 1px solid orangered;
+    padding: .2rem .5rem;
+    width: fit-content;
+}
+
+.btn-sign-up {
+    padding: 0 5px;
+    margin: 0 5px;
+    border: none;
+    color: orangered;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.btn-sign-up:hover {
+    color: orange;
+}
+
+/* ADS TO LOGN */
+@media screen and (max-width: 575px) {
+    .ads-sign-in {
+        background-color: rgb(238, 238, 238);
+        height: 25vh;
+        width: 100%;
+        margin-top: auto;
+    }
+}
+@media screen and (min-width: 576px) {
+    .ads-sign-in {
+        background-color: rgb(238, 238, 238);
+        height: 25vh;
+        width: 100%;
+    }
+}
+
+
+.text-ads-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 800;
+    height: 25vh;
+    text-align: center;
+}
+
+/* EXCESS */
+@media screen and (max-width: 575px) {
+    .container-excess {
+        background-color: white;
+        height: fit-content;
+    }
+
+    .container-card-excess {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+
+    .card-excess {
+        background-color: white;
+        border: 1px solid rgb(238, 238, 238);
+        box-shadow: 4px 4px 5px gainsboro;
+        width: 35vw;
+        height: 25vh;
+        margin-top: 2px;
+    }
+
+    .p-excess {
+        font-size: smaller;
+    }
+
+    .title-excess {
+        font-size: small;
+        font-weight: 700;
+    }
+
+    .header-excess {
+        font-size: small;
+        color: orangered;
+        font-weight: 800;
+        text-align: center;
+        height: fit-content;
+    }
+
+    .icon-excess {
+        width: 20%;
+    }
+}
+
+/* EXCESS */
+@media screen and (min-width: 576px) {
+    .container-excess {
+        background-color: white;
+        height: 45vh;
+    }
+
+    .container-card-excess {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .card-excess {
+        background-color: white;
+        border: 1px solid rgb(238, 238, 238);
+        box-shadow: 4px 4px 5px gainsboro;
+        width: 25vw;
+        height: 35vh;
+    }
+
+    .title-excess {
+        font-size: large;
+        font-weight: 700;
+    }
+
+    .p-excess {
+        font-size: small;
+    }
+
+    .header-excess {
+        font-size: x-large;
+        color: orangered;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .icon-excess {
+        width: 20%;
+    }
+}
+
+/* PAGINATION PRODUCTS */
+.pagination-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+.cont-footer {
+    height: 25vh;
+    background-color: whitesmoke;
+}
+
+.cont-socmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    font-size: larger;
+}
+
+/* ////////LOGIN-PAGES/////////// */
+.login-bg {
+    overflow: hidden;
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-from-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 5px 15px gainsboro;
+}
+
+.login-text-title {
+    font-size: x-large;
+    font-weight: 500;
+    color: orangered;
+    margin: 1rem;
+}
+
+.login-box-from {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 350px;
+}
+
+.login-box-form-pw {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 350px;
+}
+
+.login-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: medium;
+    color: black;
+    outline: 0;
+    display: flex;
+    justify-content: right;
+    width: 350px;
+}
+
+.login-eye-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.p-error {
+    color: red;
+    padding: 0;
+    margin: 0 0 0 0;
+    font-weight: 400;
+    font-size: small;
+}
+
+.text-ask {
+    color: black;
+    display: flex;
+}
+
+/* modal */
+.modal-body {
+    color: red;
+}
+
+.modal-body-ceck {
+    background-color: white;
+    border: 1px solid orangered;
+    color: black;
+}
+
+.checkout-box-pw {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 350px;
+    border-radius: 20px;
+}
+
+/* CONTAINER CARD */
+.container-card-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+/* DETAILPAGES */
+.bg-detail {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.heading-detail {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: x-large;
+    font-weight: 700;
+    border-bottom: 1px solid orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+@media screen and (min-width: 576px) {
+    .detail-img-box {
+        background-color: gainsboro;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .detail-img-box {
+        background-color: gainsboro;
+        height: 65vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.img-detail {
+    width: 100%;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.detail-title {
+    font-size: 29px;
+    font-weight: 700;
+    color: black;
+}
+
+.detail-p {
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    margin: 10px 0;
+}
+
+.detail-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: yellowgreen;
+}
+
+.qty-input {
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    color: black;
+    text-align: center;
+    width: 3vw;
+}
+
+.btn-qty {
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: none;
+    align-items: center;
+    border: none;
+}
+
+.btn-qty:hover {
+    color: #00dbff;
+}
+
+.container-card {
+    margin: 20px 0 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 100vw; */
+}
+
+/* CART SHOP */
+.cart-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 3px;
+    box-shadow: 0px 0px 5px gainsboro;
+    text-align: left;
+    color: black;
+    height: 20vh;
+}
+
+.cart-box:hover {
+    border: 1px solid orangered;
+}
+
+
+@media screen and (min-width: 992px) {
+    .cart-box-img {
+        background-color: white;
+        width: 8vw;
+        height: 15vh;
+        overflow: hidden;
+    }
+
+    .cart-img {
+        width: 8vw;
+        object-fit: cover;
+        align-items: center;
+    }
+
+    .cart-title {
+        width: 30vw;
+        color: black;
+    }
+
+    .cart-title-name {
+        font-size: large;
+        font-weight: 600;
+        color: black;
+    }
+
+    .cart-counter {
+        width: 10vw;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-price-pcs {
+        width: 15vw;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cart-price {
+        width: 10vw;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .cart-close {
+        width: 5vw;
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cart-box-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 10px;
+        box-shadow: 0px 0px 10px gainsboro;
+        text-align: left;
+        color: yellowgreen;
+        height: 5vh;
+    }
+
+    .cart-bottom-price {
+        font-size: large;
+        font-weight: 600;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:991px) {
+    .cart-box-img {
+        background-color: white;
+        width: 15vw;
+        height: 15vh;
+        overflow: hidden;
+    }
+
+    .cart-img {
+        width: 100%;
+        object-fit: cover;
+        align-items: center;
+    }
+
+    .cart-title {
+        width: 23vw;
+        color: black;
+    }
+
+    .cart-title-brand {
+        font-size: x-small;
+        font-weight: 400;
+    }
+
+    .cart-title-name {
+        font-size: small;
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .cart-stock {
+        font-size: x-small;
+    }
+
+    .cart-counter {
+        width: 15vw;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-price-pcs {
+        width: 10vw;
+        color: yellowgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        text-align: center;
+    }
+
+    .cart-price {
+        width: 10vw;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: small;
+        text-align: center;
+    }
+
+    .cart-close {
+        width: 5vw;
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cart-box-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 10px;
+        box-shadow: 0px 0px 10px gainsboro;
+        text-align: left;
+        color: yellowgreen;
+        height: 5vh;
+    }
+
+    .cart-bottom-price {
+        font-size: medium;
+        font-weight: 600;
+        color: black;
+    }
+}
+
+.empty-cart {
+    height: 50vh;
+    color: orangered;
+    font-weight: 500;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.btn-style-3 {
+    background-color: transparent;
+    color: orangered;
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: none;
+    align-items: center;
+    border: none;
+    padding: .2rem .5rem;
+}
+
+.btn-style-3:hover {
+    color: orange;
+
+}
