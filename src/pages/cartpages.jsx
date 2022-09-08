@@ -14,11 +14,17 @@ const url = 'https://databasekedai.herokuapp.com'
 export default function Cart() {
     const state = useSelector((state) => state.reducer)
     const dispatch = useDispatch()
-    
+
     const [cartList, setCartList] = useState([])
     const [indexEdit, setIndexEdit] = useState(null)
     const [errorCeck, setErrorCeck] = useState(false)
     const handleClose = () => setErrorCeck(false);
+
+    const [waBtn, setWaBtn] = useState(false)
+    const [waList, setWaList] = useState("")
+
+    // const [totalPrice, setTotalPrice] = useState(null)
+
     const [toHistory, setToHistory] = useState(false)
 
     // validation password
@@ -29,12 +35,22 @@ export default function Cart() {
 
     const [qty, setQty] = useState(null)
 
+    const TotalPrice = () => {
+        let total = null
+        for (let i = 0; i < cartList.length; i++) {
+            total += +cartList[i].qtyBuy * +cartList[i].price
+        }
+        return (total)
+    }
+
     useEffect(() => {
-        Axios.get(`${url}/user/${state.id}`)
+        let id = localStorage.getItem('idUser')
+        Axios.get(`${url}/user/${id}`)
             .then(res => {
                 setCartList(res.data.cart)
-            })
-    }, [state.id])
+            });
+    }, [])
+
 
     const onDelete = (index) => {
         let tempCart = state.cart
@@ -50,7 +66,7 @@ export default function Cart() {
         setQty(cartList[index].qtyBuy)
     }
 
-    const onMin = (index) => {
+    const onMin = () => {
         setQty(+qty - 1)
     }
 
@@ -86,19 +102,26 @@ export default function Cart() {
         setIndexEdit(null)
     }
 
-    const TotalPrice = () => {
-        let total = null
-        for (let i = 0; i < cartList.length; i++) {
-            total += +cartList[i].qtyBuy * +cartList[i].price
-        }
-        return (total)
-    }
+
 
     const onCeckOut = () => {
         if (cartList.length === 0) {
             return setErrorCeck(true)
         } else {
-            return setValidPw(true)
+            let total = null
+            for (let i = 0; i < cartList.length; i++) {
+                total += +cartList[i].qtyBuy * +cartList[i].price
+            }
+
+            let waOrder = `https://api.whatsapp.com/send?phone=6285812408808&text=Halo,%20Kedai%20Pahlawan.%0ASaya%20ingin%20memesan%20makanan%20berikut%20ini:%0A`
+            for (let i = 0; i < cartList.length; i++) {
+                let nameFood = cartList[i].name
+                let newNameFood = nameFood.replace(/\s/g, "%20");
+                waOrder += `${i + 1}.%20${newNameFood}%20Rp%20${(cartList[i].price).toLocaleString()}%20-%20${cartList[i].qtyBuy}%20Porsi%0A`
+            }
+            waOrder += `%0ATOTAL%20IDR%20${total.toLocaleString()}`
+            console.log(waOrder)
+            return (setValidPw(true), setWaList(waOrder))
         }
     }
 
@@ -114,7 +137,7 @@ export default function Cart() {
             return setErrorPassword(true)
         } else if (state.password === validate) {
             return (
-                setToHistory(true),
+                setWaBtn(true),
                 Axios.post(`${url}/history`, dataHistory)
                     .then(res => {
                         let idUser = localStorage.getItem('idUser')
@@ -143,10 +166,13 @@ export default function Cart() {
         }
     }
 
+    const onToHistory = () => {
+        setToHistory(true)
+    }
+
     if (toHistory) {
         return (<Navigate to="/history" />)
     }
-
     return (
         <div className="bg-detail">
             <Modal show={errorCeck} onHide={handleClose}>
@@ -160,9 +186,14 @@ export default function Cart() {
                             <div className="modal-box-input">
                                 <input className="login-input-modal px-0" type="password" placeholder="Input your password ..." id="password" />
                                 <button className="btn-style mx-3" onClick={onValidPw}>Validate</button>
+                                {waBtn ?
+                                    <a href={waList} target="_blank" rel="noopener noreferrer">
+                                        <button className="btn-style mx-3" onClick={onToHistory}>Validation Success. Click to Order </button>
+                                    </a>
+                                    : ""}
                             </div>
                         </div>
-                        {errorPassword ? <b className="p-error"> Password doesn't match ! Validation failed. </b> : ''}
+                        {errorPassword ? <b className="p-error"> Password doesn't match ! Validation failed. </b> : ""}
                     </div>
                 </Modal.Body>
             </Modal>
@@ -212,10 +243,10 @@ export default function Cart() {
                                             </>
                                             :
                                             <>
-                                            <div style={{display:"flex", alignItems:"center"}}>
-                                                <p className="m-0">{item.qtyBuy}</p>
-                                                <button className="btn-style-3" onClick={() => onEdit(index)}><i className="fa-solid fa-pen-to-square"></i></button>
-                                            </div>
+                                                <div style={{ display: "flex", alignItems: "center" }}>
+                                                    <p className="m-0">{item.qtyBuy}</p>
+                                                    <button className="btn-style-3" onClick={() => onEdit(index)}><i className="fa-solid fa-pen-to-square"></i></button>
+                                                </div>
                                             </>
                                         }
                                     </div>

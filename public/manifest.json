@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kedai Pahlawan",
+  "name": "Kedai Pahlawan",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "1.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "51x51"
     },
     {
-      "src": "logo512.png",
+      "src": "2.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "51x51"
     }
   ],
   "start_url": ".",

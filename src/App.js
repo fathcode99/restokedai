@@ -11,13 +11,15 @@ import DetailPages from './pages/detailpages';
 import CartPages from './pages/cartpages';
 import HistoryPages from './pages/historypages';
 
+const url = 'https://databasekedai.herokuapp.com'
+
 function App() {
   const state = useSelector((state) => state.reducer)
 
   const dispatch = useDispatch()
   useEffect(() => {
     let id = localStorage.getItem('idUser')
-    Axios.get(`http://localhost:2000/user/${id}`)
+    Axios.get(`${url}/user/${id}`)
       .then(res => {
         dispatch({
           type: 'LOGIN',

@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom"
 
 import './component.css'
-export default function Card(products) {
+export default function Card(products) {   
     return (
         <div className="cont-card-menu p-2 my-4 mx-3">
             <div className="cont-img-card">

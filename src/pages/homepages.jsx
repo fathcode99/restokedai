@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom'
 
 const url = 'https://databasekedai.herokuapp.com'
 
+
 export default function HomePages() {
     const [products, setProducts] = useState([])
 
@@ -25,6 +26,8 @@ export default function HomePages() {
     let prodPerPage = 8
     let startCard = (page - 1) * prodPerPage
     let sliceCard = products.slice(startCard, startCard + prodPerPage)
+
+    const urlWa = 'https://api.whatsapp.com/send?phone=6285812408808&text=Halo%20Kedai%20Pahlawan.%0ASaya%20ingin%20reservasi.'
 
     useEffect(() => {
         Axios.get(`${url}/products`)
@@ -52,7 +55,7 @@ export default function HomePages() {
                         <Col className="text-front col-lg-7 col-12 p-0">
                             <div className="title-front">Sedia makanan yang berkualitas</div>
                             <div className="p-img-front"><p>Kualitas rasa dan bahan tidak perlu anda khawatirkan.</p></div>
-                            <a href="https://wa.link/itmp4h">
+                            <a href={urlWa} target="_blank" rel="noopener noreferrer">
                                 <button className="btn-style">Reservasi</button>
                             </a>
                         </Col>
@@ -75,7 +78,7 @@ export default function HomePages() {
                                 <button className="btn-style my-3">REGISTER</button>
                             </Link>
                             <div>
-                                Registrasi dan dapatkan harga spesial dari kami !
+                                Registrasi dan dapatkan pelayanan Free Delivery Order !
                             </div>
                         </Col>
                     </Row>
@@ -88,35 +91,23 @@ export default function HomePages() {
                     <div className="header-excess my-4">Mengapa kami menjadi pilihan tepat anda ?</div>
                     <div className="container-card-excess">
                         <div className="card-excess p-3 me-2">
-                            <div>
-                                <img className="icon-excess py-2" src="https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg" alt="icon-1" />
-                            </div>
                             <div className="title-excess">Chef yang berpengalaman</div>
                             <p className="p-excess">Kami memiliki chef yang sudah berpengalaman bertahun-tahun sebagai chef</p>
                         </div>
 
                         <div className="card-excess p-3 me-2">
-                            <div>
-                                <img className="icon-excess py-2" src="https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg" alt="icon-1" />
-                            </div>
                             <div className="title-excess">Bahan dan rasa yang berkualitas</div>
                             <p className="p-excess">Seleksi terhadap bahan yang kami gunakan cukup ketat, agar rasa tetap terjaga kualitasnya</p>
                         </div>
 
                         <div className="card-excess p-3 me-2">
-                            <div>
-                                <img className="icon-excess py-2" src="https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg" alt="icon-1" />
-                            </div>
-                            <div className="title-excess">Chef yang berpengalaman</div>
-                            <p className="p-excess">Kami memiliki chef yang sudah berpengalaman bertahun-tahun sebagai chef</p>
+                            <div className="title-excess">Harga yang bersahabat</div>
+                            <p className="p-excess">Kami memberikan makanan yang berkualitas, namun dengan harga yang bersahabat</p>
                         </div>
 
                         <div className="card-excess p-3 me-2">
-                            <div>
-                                <img className="icon-excess py-2" src="https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg" alt="icon-1" />
-                            </div>
-                            <div className="title-excess">Chef yang berpengalaman</div>
-                            <p className="p-excess">Kami memiliki chef yang sudah berpengalaman bertahun-tahun sebagai chef</p>
+                            <div className="title-excess">Pelayanan yang ramah</div>
+                            <p className="p-excess">Tidak perlu khawatir atas pelayanan kami. Kami senantiasa memberikan pelayanan sepenuh hahti.</p>
                         </div>
                     </div>
                 </Container>
@@ -149,10 +140,9 @@ export default function HomePages() {
             {/* FOOTER */}
             <footer className="cont-footer">
                 <Container>
-                    <div className="cont-socmed py-3">
-                        <div><i class="fa-brands fa-square-instagram fs-2"></i></div>
-                        <div><i class="fa-brands fa-square-twitter fs-2 mx-3"></i></div>
-                        <div><i class="fa-brands fa-square-facebook fs-2"></i></div>
+                    <div className="cont-socmed py-5">
+                        <p className="p-0 m-0">"Kepuasan anda akan rasa dari masakan kami, adalah prioritas bagi kami.</p>
+                        <p className="p-0">Untuk itulah kami menerima segala saran kritik yang membangun."</p>
                     </div>
                 </Container>
             </footer>

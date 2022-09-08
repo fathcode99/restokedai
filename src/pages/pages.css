@@ -157,11 +157,13 @@
 
     .p-excess {
         font-size: smaller;
+        text-align: center;
     }
 
     .title-excess {
         font-size: small;
         font-weight: 700;
+        text-align: center;
     }
 
     .header-excess {
@@ -181,7 +183,8 @@
 @media screen and (min-width: 576px) {
     .container-excess {
         background-color: white;
-        height: 45vh;
+        height: 225px;
+        align-items: center;
     }
 
     .container-card-excess {
@@ -195,17 +198,19 @@
         background-color: white;
         border: 1px solid rgb(238, 238, 238);
         box-shadow: 4px 4px 5px gainsboro;
-        width: 25vw;
-        height: 35vh;
+        width: 200px;
+        height: 175px;
     }
 
     .title-excess {
         font-size: large;
         font-weight: 700;
+        text-align: center;
     }
 
     .p-excess {
         font-size: small;
+        text-align: center;
     }
 
     .header-excess {
@@ -213,10 +218,6 @@
         color: orangered;
         font-weight: 800;
         text-align: center;
-    }
-
-    .icon-excess {
-        width: 20%;
     }
 }
 
@@ -239,6 +240,7 @@
     align-items: center;
     color: orangered;
     font-size: larger;
+    flex-direction: column;
 }
 
 /* ////////LOGIN-PAGES/////////// */
