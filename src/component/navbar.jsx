@@ -31,7 +31,7 @@ export default function NavBar() {
             <Navbar.Collapse id="basic-navbar-nav" className="cont-nav-menu">
                 <Nav className="nav-menu-style">
                     <Nav className="nav-text-menu" as={Link} to="/">HOME</Nav>
-                    <Nav className="nav-text-menu" as={Link} to="/">ABOUT US</Nav>
+                    <Nav className="nav-text-menu" as={Link} to="/cart">CART</Nav>
                     <Nav className="nav-text-menu me-2" as={Link} to="/history">HISTORY</Nav>
                 </Nav>
 

@@ -89,7 +89,7 @@ export default function Register() {
 
     const numberValid = (e) => {
         let number = /[0-9]/
-        if (!number.test(e.target.value) || e.target.value.length < 10)
+        if (!number.test(e.target.value) || e.target.value.length < 11)
             return setErrorNumb(true)
         setErrorNumb(false)
 
@@ -142,7 +142,6 @@ export default function Register() {
                                 :
                                 existUser ? <b className="p-error">Username already exist</b> : ''
                             }
-
                         </div>
 
                         <div className="login-box-from mt-2">

@@ -86,6 +86,7 @@ export default function Detail() {
                 )
             }
         }
+        
         tempCart.push(dataProducts)
 
         Axios.patch(`${url}/user/${state.id}`, { cart: tempCart })

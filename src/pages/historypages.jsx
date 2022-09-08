@@ -69,10 +69,10 @@ export default function History() {
                                                 return (
                                                     <Row key={item2.id}>
                                                         <div className="cart-box mt-1 py-2">
-                                                            <div className="cart-box-img m-0">
+                                                            <div className="cart-box-img py-2 m-0">
                                                                 <img className="cart-img me-2" src={item2.images} alt="product" />
                                                             </div>
-                                                            <div className="cart-title me-2">
+                                                            <div className="cart-title ms-3">
                                                                 <div className="cart-title-brand">{item2.brand}</div>
                                                                 <div className="cart-title-name">{item2.name}</div>
                                                             </div>

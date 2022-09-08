@@ -96,7 +96,7 @@ export default function HomePages() {
                         </div>
 
                         <div className="card-excess p-3 me-2">
-                            <div className="title-excess">Bahan dan rasa yang berkualitas</div>
+                            <div className="title-excess">Bahan yang berkualitas</div>
                             <p className="p-excess">Seleksi terhadap bahan yang kami gunakan cukup ketat, agar rasa tetap terjaga kualitasnya</p>
                         </div>
 

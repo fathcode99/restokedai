@@ -105,16 +105,25 @@
 @media screen and (max-width: 575px) {
     .ads-sign-in {
         background-color: rgb(238, 238, 238);
-        height: 25vh;
+        height: 200px;
         width: 100%;
-        margin-top: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (min-width: 576px) {
     .ads-sign-in {
         background-color: rgb(238, 238, 238);
-        height: 25vh;
+        height: 200px;
         width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -167,7 +176,7 @@
     }
 
     .header-excess {
-        font-size: small;
+        font-size: medium;
         color: orangered;
         font-weight: 800;
         text-align: center;
@@ -230,7 +239,7 @@
 
 /* FOOTER */
 .cont-footer {
-    height: 25vh;
+    height: 150px;
     background-color: whitesmoke;
 }
 
@@ -450,7 +459,7 @@
     box-shadow: 0px 0px 5px gainsboro;
     text-align: left;
     color: black;
-    height: 20vh;
+    height: 100px;
 }
 
 .cart-box:hover {
@@ -461,13 +470,13 @@
 @media screen and (min-width: 992px) {
     .cart-box-img {
         background-color: white;
-        width: 8vw;
-        height: 15vh;
+        width: 75px;
+        height: 95px;
         overflow: hidden;
     }
 
     .cart-img {
-        width: 8vw;
+        height: 100%;
         object-fit: cover;
         align-items: center;
     }

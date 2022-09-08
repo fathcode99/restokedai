@@ -23,8 +23,6 @@ export default function Cart() {
     const [waBtn, setWaBtn] = useState(false)
     const [waList, setWaList] = useState("")
 
-    // const [totalPrice, setTotalPrice] = useState(null)
-
     const [toHistory, setToHistory] = useState(false)
 
     // validation password
@@ -101,8 +99,6 @@ export default function Cart() {
             })
         setIndexEdit(null)
     }
-
-
 
     const onCeckOut = () => {
         if (cartList.length === 0) {
@@ -213,11 +209,10 @@ export default function Cart() {
                         {cartList.map((item, index) =>
                             <Row key={item.id}>
                                 <div className="cart-box mt-3 py-3">
-                                    <div className="cart-box-img m-0">
+                                    <div className="cart-box-img py-2">
                                         <img className="cart-img me-2" src={item.images} alt="product" />
                                     </div>
-                                    <div className="cart-title me-2">
-                                        <div className="cart-title-brand">{item.brand}</div>
+                                    <div className="cart-title ms-3">
                                         <div className="cart-title-name">{item.name}</div>
                                         <div className="cart-stock">Ready stock : {item.maxStock}</div>
                                     </div>
@@ -264,7 +259,7 @@ export default function Cart() {
                             <div className="cart-box-bottom py-4 mt-3">
                                 <div>
                                     <Link as={Link} to="/">
-                                        <button className="btn-style-3 "><i class="fa-solid fa-arrow-left-long pe-2"></i>Back to Shop</button>
+                                        <button className="btn-style-3 "><i className="fa-solid fa-arrow-left-long pe-2"></i>Back to Shop</button>
                                     </Link>
                                 </div>
                                 <div className="cart-bottom-price">
